@@ -1,6 +1,68 @@
 body{
-    background-color: rgba(0, 0, 255, 0.089);
+    background-color: rgba(76, 0, 255, 0.062);
+    color: rgba(0, 0, 0, 0.863);
 }
-.rounded-pill{
-    background-color: rgba(0, 0, 0, 0.226);
+.card {
+    min-width: 400px;
+    max-width: 600px;
+    padding: 16px;
+    margin: 0 auto;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px #888888;
+}
+.heading {
+    display: flex;
+    align-items: center;
+}
+.img-1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.first-head {
+    margin: 0;
+    margin-bottom: 5px;
+}
+.first-para {
+    border-radius: 20px;
+    background-color: #0085b9;
+    padding: 5px;
+    color: white;
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.card-info {
+    margin-bottom: 0;
+}
+.card-btm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btm-head {
+    margin-bottom: 0;
+    color: #0085b9;
+    padding-bottom: 5px;
+}
+.btm-para {
+    margin-top: 0;
+}
+.btn-accept {
+	color: #0085b9;
+	border: 1px solid #0085b9;
+	border-radius: 5px;
+	padding: 7px 13px;
+	font-weight: lighter;
+	text-decoration: none;
+	opacity: 0.7;
+}
+.btn-accept:hover {
+	opacity: 0.9;
+	color: white;
+	background-color: #0085b9;
+	opacity: .8;
 }
